@@ -6,6 +6,7 @@ body {
     margin-bottom: 100px;
 }
 
+
 header {
     border-bottom: solid 2px rgb(42, 122, 228);
     padding: 20px;
@@ -23,6 +24,12 @@ header {
 
 .chamada-texto {
     margin-right: 5%;
+    background: rgb(52, 67, 135);
+    padding: 5%;
+    border-radius: 2rem;
+    border: solid black 1px;
+    
+
 }
 
 h1 {
@@ -53,16 +60,43 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
 div iframe{
+    background: 
+        linear-gradient(rgb(97, 221, 252), rgb(10, 3, 3)) padding-box, 
+        linear-gradient(to right, #0d90c4, #40a594, #0a0a0a) border-box;
     border-radius: 1rem;
-    border: solid rgba(111, 96, 247, 0.671);
-    opacity: 0.8 ;
-    
-    
+    border: 3px solid transparent;
+    position: relative;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none; 
+    color: #1b1d1c;
+    cursor: pointer;
+    animation: pulse 3s infinite;
 }
+
+@keyframes pulse {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000000;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+    
+    
+    
+    
+    
+    
